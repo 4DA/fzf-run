@@ -2,7 +2,7 @@
 # run executable files via fzf+terminal emulator
 # dependencies: [fzf](https://github.com/junegunn/fzf), rxvt-unicode
 
-TERMINAL="urxvt --geometry 160x18+30+200 -e"
+TERMINAL="urxvt --geometry 160x18+30+200 -title fzf_run -e"
 ROOT="/"
 
 fzf_invoke()
